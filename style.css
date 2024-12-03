@@ -1,0 +1,458 @@
+/* CSS effects onto DOM body element */
+body {
+    background-color: #7e79a3;
+}
+
+/* Report.html css */
+.report-content {
+    font-size: 22px; 
+}
+
+/* font effects added */
+@font-face 
+{ 
+    font-family: 'TanomuzeCowboy';  
+    src: url('/fonts/TanomuzeCowboy.ttf')format("truetype"); 
+}
+
+@font-face 
+{ 
+    font-family: 'RobotoSlab';  
+    src: url('/fonts/RobotoSlab/RobotoSlab-Regular.ttf')format("truetype"); 
+}
+
+@font-face 
+{ 
+    font-family: 'RyeRegular';  
+    src: url('/fonts/RyeRegular.ttf')format("opentype"); 
+}
+
+/* styles.css */
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top within the flex container */
+}
+
+.footer-contact {
+    flex: 1;
+    margin-right: 20px; /* Add spacing between contact details and social media icons */
+}
+
+.footer-contact h2 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Add spacing below the header */
+}
+
+.footer-contact li {
+    list-style-type: none; /* Remove default list bullets */
+    margin: 5px 0; /* Add spacing between each contact detail */
+}
+
+ /* Home page ai section */
+.ai-section {
+    background-color: #f8f8f8; 
+}
+
+/* for headline (h2) */
+.ai-section h2 {
+    color: #333; 
+    font-size: 49px; 
+    margin-bottom: 15px; 
+}
+
+/* for paragraph (p) */
+.ai-section p {
+    color: #666; 
+    font-size: 25px; 
+    line-height: 1.5; 
+}
+
+/* Homepage Ai effect styling & adjustments. */
+.Ai-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+} 
+
+/* NewsLetter Signup benefits section */
+
+.SignUpBenefits-section h3{
+   margin-left: 440px;
+   color: rgb(255, 213, 0)
+}
+
+/* Styling individual benefit items.*/
+.SignUpBenefits-section li {
+    background-color: turquoise;
+    margin-left: 420px; 
+    margin-bottom: 5px; 
+    list-style-type: disc;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1em;;
+    color: white ;
+
+} 
+
+#Collectables h2 {
+    color: rgb(255, 200, 0); 
+    white-space: nowrap;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Structured content of website with these tags will be styled using CSS */
+h3{
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 2em;;
+    color: orange ;
+} 
+
+
+h4{
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 3em;
+    color: rgb(255, 255, 255) ;
+    margin-left: 40%;
+
+}
+h5{
+    font-family: 'RyeRegular', cursive;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 4em;;
+    color: #ffffff ;
+    width : 50%;
+    margin-left : 35%;
+    margin-top : -5%;
+
+}
+
+/* Articles page CSS & styling*/
+.article-section {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.active-section {
+    background-color: #f0f0f0;
+}
+
+.article-section h2 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articles {
+    display: none;
+    color: #ab1010;
+    font-size: x-large;
+}
+
+.show-articles {
+display: block;
+}
+
+/* OurAim page styling. */
+/* Styling for sections */
+#team, #accomplishments, #ambition, #location {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.458);
+}
+
+/* Styling for headings */
+#team h2, #accomplishments h2, #ambition h2, #location h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling for paragraphs*/
+#team p, #accomplishments p, #ambition p, #location p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* styling for address & details */
+#location p {
+    font-size: 22px;
+}
+
+div label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 1em;
+    color: gold;
+}
+
+div m {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+}
+
+.description > h1{
+    font-family: 'RyeRegular',cursive;
+    font-size: 50px;
+} 
+.description > h2{
+    font-family: 'RyeRegular',cursive;
+    font-size: 35px;
+    color : #ffffff;
+    width : 17.5%;
+    margin-left : 29%;
+    margin-top : 5%;
+    backdrop-filter: blur(0.5px) saturate(50%) contrast(60%) brightness(100%);
+}
+.description > h3{
+    font-family: 'RyeRegular';
+    font-size: 20px;
+    color : #ffffff;
+    width : 100%;
+    margin-top : 0%;
+    font-weight: 1;
+    backdrop-filter: blur(1px) saturate(100%) contrast(50%) brightness(60%);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: right;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container{
+    width: 80%;
+    height: 50%;
+    position: relative;
+}
+
+.Contact{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactUs-form{
+    background: rgba(79, 62, 228, 0.592);
+    display: flexbox;
+}
+
+.CForm-left{
+    font-size: x-large;
+    flex-basis: 90%;
+    padding: 40px 60px;
+}
+
+.Signup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NewsLetter-form{
+    background: white;
+    display: flex;
+}
+
+.NLForm-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.NLForm-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: lightblue;
+    color: white;
+}
+
+.container h1{
+    margin-bottom: 10px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    color: black;
+}
+
+button{
+    background: #FFD700;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(255, 255, 0,0.5);
+}
+
+.contact-left h2{
+    color: lightblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+*{text-decoration:none; list-style: none; margin:0px; padding:-10px; outline:none;}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #a38879;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#newsletter-signup-area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#GettingInTouch-forum {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-grid li {
+    grid-template-columns: repeat(4, 1fr);  /*Create four equal columns */
+    gap: 30px; /* Add spacing between list items */
+    margin-left: 1.5rem; /*Adjust the left margin as needed */
+    align-items: center; /* Center items vertically */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: lightblue; /* Set text color for links */
+    font-weight: bold; 
+    font-size: 2rem;
+    margin: 0 10px
+}
+
+/* Style the links on hover */
+nav a:hover {
+    color: #0d00ff; /* Change the text color on hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    
+    .nav-grid li {
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+    
+    nav a {
+        font-size: 1.5rem; /* Reduce font size on smaller screens */
+        margin: 5px 0; /* Add vertical spacing between links */
+    }
+}
+
+
+
+
+
+
+
+

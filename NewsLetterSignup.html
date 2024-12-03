@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is an AI News Magazine themed website">
+    <meta name="keywords" content="AI, Magazine themed website, Magazine, AI News">
+    <meta name="refresh" content="3600">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/p5.sound.min.js"></script> <!--only if sound in web, I persume.-->
+    <script src="./js/sketch.js"></script> 
+    <style> body {padding: 0; margin: 0;} </style>
+
+  </head>
+
+  <style>
+    body {
+      background-image: url("images/NewsLetterSignup-bg.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      backdrop-filter: blur(0px);
+    }  
+  </style>
+
+  <body>
+      
+      <!--This section represents AI News Magazine Logo for NewsLetterSignup.html of the website.-->
+      <header>
+      <h1>AI News Magazine Logo</h1>
+      <img src="images/Logo.jpg" alt="Logo style" border=0 width=auto height=170>
+      </header>
+
+      <h5>AI News Magazine</h5>
+
+      
+      <!--This section is responsible for the navigation links to all 4 pages of the website.-->
+      <nav class="nav-grid">
+
+        <header>
+        <section>
+
+        <nav>
+        <ol>
+        <li><a href="index.html"><i class="icon-thumbs-up-alt"></i>Home</a></li>
+        <li><a href="OurAim.html"><i class="icon-money"></i>Our Aim</a></li>
+        <li><a href="Articles.html"><i class="icon-money"></i>Articles</a></li>
+        <li><a href="GetInTouch.html"><i class="icon-money"></i>Get In Touch</a></li>
+        </ol>
+        </nav>
+
+        </header>
+        </section>
+
+      </nav>
+    
+      <div class="SignUpBenefits-section">
+        <h3>Benefits of Subscribing</h3>
+        <ul>
+            <li>Stay informed about the latest industry trends and news.</li>
+            <li>Receive exclusive offers, discounts, and promotions.</li>
+            <li>Access to premium content and resources.</li>
+            <li>Get early access to product launches and updates.</li>
+            <li>Join a community of like-minded enthusiasts and experts.</li>
+            <li>Receive helpful tips, guides, and tutorials.</li>
+            <li>Stay connected with our brand and updates.</li>
+        </ul>
+      </div>
+
+      <div id="newsletter-signup-area">
+        <!--This section represents News Letter signup form which includes dedicated input bars and a subscription button.-->
+        <div class="Signup">
+        <div class="container">
+            <div class="NewsLetter-form">
+              <div class="NLForm-left">
+                <h2>Drop down your information.</h2>
+                  <form>
+                      <div class="input-row">
+                          <div class="input-group">
+                          <label>First name</label>
+                          <input type="text" placeholder="Ali">
+                          </div>
+
+                          <div class="input-group">
+                          <label>Second name</label>
+                          <input type="text" placeholder="Farhan">
+                          </div>
+                      </div>
+
+                      <div class="input-row">
+                          <div class="input-group">
+                          <label>Email</label>
+                          <input type="email" placeholder="AliFarhan@gmail.com">
+                          </div>
+
+                          <div class="input-group">
+                          <label>Phone</label>
+                          <input type="text" placeholder="+1 234 567 890">
+                          </div>
+                      </div>
+                      
+                      <div class="input-row">
+                          <div class="input-group">
+                          <label>AI field of interest</label>
+                          <input type="text" placeholder="Neural Networks">
+                          </div>
+                      </div>
+
+                      <button type="submit">subscribe</button>
+
+                  </form>
+
+              </div>
+              <div class="NLForm-right">
+                <h2>Fill up personal information form & subscribe for monthly News Letter air drops at your mail.
+                    As a Bonus you get to participate in Lucky draws and can Win Exciting Prizes!</h2>
+              </div>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
+
